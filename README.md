@@ -1,6 +1,6 @@
-# Skilled E-Learning Landing Page
+# E-Learning Landing Page
 
-The Skilled E-Learning Landing Page is a modern, fully responsive web page designed to showcase an e-learning platform. Built with HTML and CSS, this project highlights clean, professional design principles while ensuring seamless usability across all devices.
+E-Learning Landing Page is a modern, fully responsive web page designed to showcase an e-learning platform. Built with HTML and CSS, this project highlights clean, professional design principles while ensuring seamless usability across all devices.
 
 ---
 
