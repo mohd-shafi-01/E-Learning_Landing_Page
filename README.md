@@ -6,14 +6,19 @@ The Skilled E-Learning Landing Page is a modern, fully responsive web page desig
 
 ## Features
 
-  -  **Responsive Design:** Adapts to different screen sizes, offering a consistent experience on desktops, tablets, and mobile devices.
+  - 🌐 **Responsive Design:** Adapts to different screen sizes, offering a consistent experience on desktops, tablets, and mobile devices.
 
-  -  **Modern Layout:** A clean and professional design with intuitive navigation to highlight platform features effectively.
+  - 🎨 **Modern Layout:** A clean and professional design with intuitive navigation to highlight platform features effectively.
 
-  -  **Custom Styling:** Unique and reusable CSS components to maintain design consistency across the page.
-
-  -  **Cross-Browser Compatibility:** Tested to work flawlessly across popular web browsers.
-
-  -  **Accessibility:** Built with accessibility best practices to enhance user experience for all audiences.
+  - 🌍 **Cross-Browser Compatibility:** Tested to work flawlessly across popular web browsers.
 
 ---
+
+## Technologies Used
+
+  - **HTML:** For structuring the content and layout of the web page.
+  - **CSS:** For styling and designing the page, including responsiveness and visual effects.
+
+---
+
+⭐ If you like this project, give it a star! ⭐
