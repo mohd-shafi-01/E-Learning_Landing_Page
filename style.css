@@ -82,3 +82,11 @@ body {
   font-weight: 500;
   color: #909098;
 }
+
+.hero-content button {
+  padding: 13px 35px;
+  border: none;
+  border-radius: 50px;
+  background-color: linear-gradient(#ff6c4b, #d03b9a);
+  color: #fff;
+}
