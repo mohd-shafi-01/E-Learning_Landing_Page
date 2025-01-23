@@ -102,3 +102,32 @@ body {
   top: -200px;
   right: -280px;
 } 
+
+.cards {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 70px;
+}
+
+.card {
+  width: 330px;
+  height: 330px;
+  border-radius: 15px;
+  border: 1px solid blue;
+}
+
+.one {
+  background: linear-gradient(#ff6c4b, #d03b9a);
+  border: none;
+}
+.one p {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 500;
+  padding-left: 30px;
+  padding-top: 60px;
+}
