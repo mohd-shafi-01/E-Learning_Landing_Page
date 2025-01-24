@@ -11,7 +11,7 @@ a {
 body {
   width: 100%;
   height: 100vh;
-  background-color: beige;
+  background-color: #fff;
   overflow-x: hidden;
 }
 
@@ -22,7 +22,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0px 20px;
-  
+  background: #fff;
   color: white;
 }
 
@@ -111,13 +111,15 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 70px;
+  
 }
 
 .card {
   width: 330px;
   height: 330px;
   border-radius: 15px;
-  border: 1px solid blue;
+  background: #fafbff;
+  z-index: 100;
 }
 
 .one {
@@ -128,6 +130,53 @@ body {
   font-size: 28px;
   color: #fff;
   font-weight: 500;
-  padding-left: 30px;
-  padding-top: 60px;
+  margin-left: 30px;
+  margin-top: 60px;
+}
+
+.two {
+  position: relative;
+}
+
+.two h2 {
+  margin-left: 30px;
+  margin-top: 60px;
+}
+
+.card-des {
+  margin-left: 30px;
+  margin-top: 20px;
+  color: #909098;
+  font-weight: 400;
+}
+
+.get-started {
+  margin-left: 30px;
+  margin-top: 40px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #d03b9a;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.get-started:hover {
+  color: #ff6c4b;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#ff6c4b, #d03b9a);
+  border-radius: 50%;
+  position: absolute;
+  top: -25px;
+  left: 30px;
+}
+
+.icon img {
+  width: 30px;
+  height: 30px;
 }
