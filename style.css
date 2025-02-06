@@ -34,7 +34,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .logo {
@@ -219,3 +218,35 @@ footer {
 
 /********************************* Responsive Design *********************************/
 
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    padding: 0px 10px;
+    align-items: center;
+  }
+
+  .navbar {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .hero-content1 {
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+
+  .hero-content1 h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .hero-content1 p {
+    width: 100%;
+    font-size: 16px;
+  }
+}
