@@ -16,7 +16,7 @@ body {
 
 /********************************* Header Section *********************************/
 .header {
-  width: 90%;
+  width: 80%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -24,10 +24,11 @@ body {
   padding: 0px 20px;
   background: #fff;
   color: white;
+  z-index: 1;
 }
 
 .navbar {
-  width: 90%;
+  width: 100%;
   height: 60px;
   margin: auto;
   margin-top: 20px;
@@ -101,7 +102,12 @@ body {
   position: absolute;
   top: -200px;
   right: -280px;
+  z-index: -1;
 } 
+
+.hero-img-mobile {
+  display: none;
+}
 
 .cards {
   width: 80%;
@@ -230,6 +236,11 @@ footer {
     margin-top: 10px;
   }
 
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+
   .hero-img {
     display: none;
   }
@@ -248,5 +259,25 @@ footer {
   .hero-content1 p {
     width: 100%;
     font-size: 16px;
+  }
+
+  .hero-img-mobile {
+    display: block;
+  }
+
+  .cards {
+    margin-top: 50px;
+  }
+
+  .one {
+    height: 150px;
+  }
+
+  .one p {
+    margin-top: 15px;
+  }
+
+  .footer-content {
+    width: 90%;
   }
 }
