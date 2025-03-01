@@ -20,5 +20,3 @@ E-Learning Landing Page is a modern, fully responsive web page designed to showc
   - **CSS:** For styling and designing the page, including responsiveness and visual effects.
 
 ---
-
-⭐ If you like this project, give it a star! ⭐
